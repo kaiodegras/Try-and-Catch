@@ -16,7 +16,7 @@ class Estudante {
     return this.atributos();
     
  }catch(erro){
-  console.log(erro)
+  console.log(erro.message)
  }
 
   atributos() {

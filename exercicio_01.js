@@ -25,11 +25,10 @@ class Animal {
         nome: this.nome,
         idade: this.idade,
         especie: this.especie
-      }  else {throw new Error("Erro dectado, preencha todas as informações do seu animal ")
-    }
-  }
- }
-}
+      }; else {
+        throw new Error("Erro dectado, preencha todas as informações sobre seu animal")
+      }
+      
   
 const meuAnimal = new Animal("", "");
 const atributos = meuAnimal.mostrarAtributos();
